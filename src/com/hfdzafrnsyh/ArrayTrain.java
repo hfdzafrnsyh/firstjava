@@ -87,7 +87,7 @@ public class ArrayTrain {
     }
 
 
-    public static void printArray(int[] dataArray, String message){
+    private static void printArray(int[] dataArray, String message){
         System.out.println(message + " = " + Arrays.toString(dataArray));
     }
 
