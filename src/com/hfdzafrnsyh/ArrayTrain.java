@@ -56,7 +56,7 @@ public class ArrayTrain {
 
 
     private static void reserveTwo(int[] dataArray){
-        java.util.Arrays.sort(dataArray);
+       Arrays.sort(dataArray);
         int buffer;
 
         for (int i=0; i<dataArray.length/2; i++){
@@ -67,7 +67,7 @@ public class ArrayTrain {
     }
 
     private static void reserve(int[] dataArray){
-        java.util.Arrays.sort(dataArray);
+        Arrays.sort(dataArray);
         int[] arrayBuffers = java.util.Arrays.copyOf(dataArray,dataArray.length);
 
         for (int i=0; i<dataArray.length; i++){
